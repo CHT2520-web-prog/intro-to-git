@@ -1,4 +1,4 @@
-# Getting Started with Git and Submitting Your Work for Assigment 1 using XAMPP
+# Getting Started with Git and Submitting Your Work for Assignment 1 using XAMPP
 
 These instructions are for people using XAMPP. If you are using Codespaces follow these instructions https://github.com/CHT2520-web-prog/intro-to-laravel/blob/main/starting_assignment1.md instead.
 
