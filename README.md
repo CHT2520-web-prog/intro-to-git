@@ -1,15 +1,4 @@
-# Getting Started with Git and Starting Assignment 1 using XAMPP
-
-These instructions are for people using XAMPP. If you are using Codespaces follow these instructions https://github.com/CHT2520-web-prog/intro-to-laravel/blob/main/starting_assignment1.md instead.
-
-## Create a new Laravel Project
-First you need to create a Laravel project that you will manage using Git.
-- In the shell/terminal navigate to your _htdocs_ directory
-- Create a new Laravel project (just like we did in the Introduction to Laravel practical) e.g.
-```
-composer create-project laravel/laravel assignment1
-```
-- This should set up a new Laravel project and install the dependencies.
+# Getting Started with Git 
 
 ## Installing Git
 
@@ -40,6 +29,7 @@ Enter the following user settings, making sure you use your own student number a
 git config --global core.autocrlf true
 git config --global user.email "u01234567@unimail.hud.ac.uk"
 git config --global user.name "firstname lastname"
+git config --global --add safe.directory '*'
 ```
 
 - You should now be set up with Git.
@@ -57,7 +47,7 @@ git config --global user.name "firstname lastname"
 - Navigate to your Laravel Assignment Project e.g.
 
 ```
-cd D:/xampp/htdocs/assignment1
+cd www/assignment1
 ```
 
 > On your home machine you can probably right-click in your project folder and open _git-bash_.
